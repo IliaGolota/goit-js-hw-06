@@ -21,7 +21,7 @@ const galleryItemEl = images
   )
   .join(' ');
 
-listEl.insertAdjacentHTML('afterbegin', `${galleryItemEl}`);
-listEl.style.display = 'flex';
-listEl.style.gap = '30px';
-listEl.style.listStyle = 'none';
+galleryEl.insertAdjacentHTML('afterbegin', `${galleryItemEl}`);
+galleryEl.style.display = 'flex';
+galleryEl.style.gap = '30px';
+galleryEl.style.listStyle = 'none';
